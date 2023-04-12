@@ -44,6 +44,7 @@ h1, h2, h3 {
     margin: 1px 0;
     color: white;
     border: 1px solid black;
+    display:inline-block;
 }
 
 .prvni {
@@ -52,10 +53,12 @@ h1, h2, h3 {
 
 .druhy {
     background-color: #f1c40f;
+    display: none;
 }
 
 .treti {
     background-color: #e74c3c;
+    opacity: 0.5;
 }
 
 

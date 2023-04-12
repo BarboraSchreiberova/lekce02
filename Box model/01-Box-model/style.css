@@ -1,5 +1,22 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+*, ::after, ::before { box-sizing: inherit; 
+}
 
-
+h1 { 
+    border: 3px solid green; 
+    border-radius: 20px;
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px 0 20px 0;
+}
+p { 
+    text-align: left;
+    margin: 10px auto;
+    padding: 20px 0 20px 0;
+}
+body { 
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
